@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo4.css">
+        <link rel=icon href="favicon.ico">
+        <title>U4E</title>
+    </head>
+
+<body>
+    <header>
+        <div id="logodiv">
+            <a href="index.html"><img id="logo" src="logo.png" alt="U4E"/></a>
+        </div>
+        <ul id="menu">
+            <li class="linha"><a href="2sobreoU4E.html">Sobre o U4E</a></li>
+            <li class="linha"><a href="3dicasU4E.html">Dicas U4E</a></li>
+            <li class="linha"><a href="3blog.html">Blog</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <div class="tituloprincipal">
+            <h1>Bem-vindo ao cadastro</h1>
+            <hr id="separador" size="10" width="10%" noshade>
+            <h2 class="subtitulo2">No campo abaixo haverá um formulário, onde você poderá compartilhar novos artigos no blog U4E. Publique suapostagem e não esqueça de colocar seu nome e as referências (caso você tenha retirado a publicação de alguma fonte).</h2>
+        </div>
+    </section>
+
+    <section id="formulario">
+        <div>
+            <img class="icon" src="blog.png">
+        </div>
+        
+        <div class="cadastro">
+            <form action="mailto:bia.sakaue@gmail.com" method="POST"></form>
+            <h4 class="tituloform">Nome</h4>
+            <textarea class="preencher" placeholder="Nome" cols=100 rows=1></textarea><br>
+            <h4 class="tituloform">E-mail</h4>
+            <textarea class="preencher" placeholder="E-mail" cols=100 rows=1></textarea><br>
+            <h4 class="tituloform">Assunto da publicação</h4>
+            <textarea class="preencher" placeholder="Assunto da publicação" cols=100 rows=1></textarea><br>
+            <h4 class="tituloform">Faça uma breve descrição sobre você</h4>
+            <textarea class="preencher" placeholder="Escreva aqui" cols=100 rows=5></textarea><br>
+            <h4 class="tituloform">Escreva o artigo aqui</h4>
+            <textarea class="preencher" placeholder="Escreva aqui" cols=100 rows=10></textarea><br>
+            <h4 class="tituloform">Referências</h4>
+            <textarea class="preencher" placeholder="Escreva aqui" cols=100 rows=5></textarea><br>
+        </div>
+        
+        <form>
+            <input type="button" class="botao" value="Salvar" onclick="msg()">
+        </form>
+          
+          <script>
+          function msg() {
+            alert("Ops, infelizmente esse área ainda está em desenvolvimento. Volte para o site e explore os conteúdos do U4E");
+          }
+          </script>
+    </section>
+
+    <footer>
+        <div class="footercoluna">
+            <h3 class="titulo titfooter">Créditos</h3>
+            <p class="texto2 textfooter">Esse site foi realizado com icons retirados do Flaticon e outros elementos realizados no Canva.</p>
+            <p class="texto2 textfooter">You for Earth foi realizado  por Beatriz Yuka Sakaue, para o desafio final do projeto Meu Primeiro Site, realizado pela Junior Achievement, em parceria com a Microsoft. Entenda mais sobre o projeto no "saiba mais".</p>
+            <a class="acaofooter" href="2sobreoU4E.html">Saiba mais</a>
+        </div>
+        <div class="footercoluna2 teste">
+            <h3 class="titulo titfooter">Siga-me ou entre em contato</h3>
+            <a href="https://www.facebook.com/bia.sakaue" target="_blanck"><img class="redessociais" src="facebook.png" alt="Facebook"/></a>
+            <a href="http://www.linkedin.com/in/beatriz-sakaue-6517581a1" target="_blanck"><img class="redessociais" src="linkedin.png" alt="Linkedin"/></a>
+            <a href="https://www.instagram.com/bia_yuka_/?hl=pt-br" target="_blanck"><img class="redessociais" src="instagram.png" alt="Instagram"/></a>
+            <p class="texto2 textfooter">Esse website é melhor vizualizado no navegador Google Chrome</p>
+        </div>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Spartan:wght@900&display=swap');
+
+html, body{margin: 0px 0px 0px 0px;}
+
+header{
+    background-color: #B6DFE8;
+    color: black;
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.linha::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    color: black;
+    transition: .3s;
+}
+
+.linha:hover::after{
+    width: 100%;
+    transition: .3s;
+    background: black;
+    color: black;
+}
+
+li{
+    float: left;
+    padding: 20;
+}
+
+a:link, :visited{
+    text-decoration:none;
+    color:black;
+}
+
+#logo{
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+
+.titulo2{
+    font-family: 'Spartan', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    padding-bottom: 40px;
+}
+
+.tituloprincipal{
+    padding-top: 120px;
+    padding-bottom: 10px;
+    background-color: #A8D8A5;
+    font-family: 'Spartan', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+
+}
+
+.tituloprincipal2{
+    padding-bottom: 10px;
+    background-color: #A8D8A5;
+    font-family: 'Spartan', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    float:left;
+}
+
+.subtitulo{
+    font-family: 'Spartan', sans-serif;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.subtitulo2{
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.subtitulo3{
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.texto{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.texto2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 50px;
+}
+
+.tres{
+    font-size: 25px;
+    text-align: justify;
+    line-height: 50px;
+    padding: 0;
+    padding-bottom: 0;
+}
+
+.tresd{
+    font-size: 25px;
+    text-align: justify;
+    line-height: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0;
+}
+
+.conteudo1{
+    margin-top: 75px;
+}
+
+.fotob{
+    width: 30%;
+    padding-left: 35%;
+}
+
+.separador{
+    padding-bottom: 0px;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 60%;
+    padding-bottom: 40px;
+}
+
+.coluna2{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 20%;
+    padding-bottom: 40px;
+}
+
+.ods{
+    width: 300px;
+    padding-top: 91px;
+    
+}
+
+.disclean{
+    width: 350px;
+    padding-top: 50px;
+}
+
+.disclean1{
+    width: 50%;
+    padding-top: 50px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.startup{
+    width: 300px;
+    padding-top: 50px;
+}
+
+.startup1{
+    width: 60%;
+    padding-top: 50px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#icon{
+    width: 60px;
+    padding-right: 10px;
+}
+
+#icon1{
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.texto3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.textfooter{
+    font-size: 15px;
+}
+
+.titulo{
+    font-family: 'Spartan', sans-serif;
+    font-size: 44px;
+}
+
+.titfooter{
+    font-size: 20px;
+}
+
+.footercoluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 50%;
+}
+
+.footercoluna2{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 30%;
+}
+
+.acaofooter{
+    background-color: white;
+    color: black;
+    font-family: 'Spartan', sans-serif;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 7px 7px 7px 7px;
+}
+
+.redessociais{
+    padding: 5px;
+    height: 45px;
+}
+
+footer{ 
+    background-color: #A8D8A5;
+    float: left;
+    width: 100%;
+    height: 210px;
+}
+
+@media all and (max-width: 768px) {
+    .coluna, .footercoluna, .footercoluna2{
+        display:block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    .acaofooter{
+        line-height: 50px;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    #menu{
+        visibility: hidden;
+    }
+
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    #logo{
+        margin-left: 0;
+        transform: translateX(-50%);
+    }
+    
+    .subtitulo{
+        text-align: center;
+    }
+
+    .tres{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+        line-height: 50px;
+    }
+
+    .texto2{
+        text-align: center;
+    }
+
+    .tituloprincipal, .titulo2{
+        font-size: 30px;
+    }
+
+    .tituloprincipal2{
+        font-size: 25px;
+    }
+
+    .subtitulo{
+        font-size: 25px;
+    }
+
+    .texto, .texto2, .texto3{
+        font-size: 20px;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: justify;
+    }
+
+    .subtitulo3, .textfooter{
+        font-size: 15px;
+        color: black;
+        padding-left: 0;
+    }
+
+    .acaofooter{
+        line-height: 60px;
+    }
+    
+}
+
+@media all and (max-width: 1300px) {
+    .none{
+        visibility: hidden;
+        position: absolute;
+        top:0;
+    }
+
+    .ods{
+        visibility: hidden;
+        position: absolute;
+        top:0;
+    }
+}
+
+@media all and (min-width: 1300px) {
+    .none1{
+        visibility: hidden;
+        position: absolute;
+        top:0;
+    }
+}
+
+
+@media all and (max-width: 1200px) {
+    footer{ 
+        background-color: #A8D8A5;
+        float: left;
+        width: 100%;
+        height: 500px;
+    }
+}

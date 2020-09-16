@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Spartan:wght@900&display=swap');
+
+html, body{margin: 0px 0px 0px 0px;}
+
+header{
+    background-color: #B6DFE8;
+    color: black;
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 20px;
+}
+
+a:link, :visited{
+    text-decoration:none;
+    color:black;
+}
+
+.linha::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    color: black;
+    transition: .3s;
+}
+
+.linha:hover::after{
+    width: 100%;
+    transition: .3s;
+    background: black;
+    color: black;
+}
+
+li{
+    float: left;
+    padding: 20;
+}
+
+#logo{
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+}
+
+.icon{
+    width:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+} 
+
+.efeito {
+    overflow: hidden;
+}
+
+.efeito img{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.efeito:hover img{
+    -moz-transform: scale(2.2);
+    transform: scale(1.1);
+}
+
+#fundo{
+    background: url("background.png") no-repeat bottom center scroll;
+    background-size: cover;
+    height: 100%;
+}
+
+#slogan{
+    font-family: 'Spartan', sans-serif;
+    font-size: 43px;
+    text-align: center;
+    padding-top: 130px;
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+.verde{
+    background-color: #A8D8A5;
+}
+
+section{
+    padding: 50px;
+    float: left;
+}
+
+.chamada{
+    font-family: 'Spartan', sans-serif;
+    font-size: 44px;
+    text-align: center;
+    line-height: 90px;
+}
+
+.texto{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.texto2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.texto3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.textfooter{
+    font-size: 15px;
+}
+
+.titulo{
+    font-family: 'Spartan', sans-serif;
+    font-size: 44px;
+}
+
+.titulo3{
+    font-family: 'Spartan', sans-serif;
+    font-size: 44px;
+}
+
+.centro{
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    font-size: 44px;
+}
+
+.titfooter{
+    font-size: 20px;
+}
+
+#separador{
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+
+.footercoluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 50%;
+}
+
+.footercoluna2{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 30%;
+}
+
+.figura{
+    padding-top: 50px;
+}
+
+.acao{
+    background-color: #A8D8A5;
+    color: black;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.acao3{
+    background-color: #A8D8A5;
+    color: black;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.acaofooter{
+    background-color: white;
+    color: black;
+    font-family: 'Spartan', sans-serif;
+    font-size: 10px;
+    border-radius: 10px;
+    padding: 7px 7px 7px 7px;
+}
+
+.redessociais{
+    padding: 5px;
+    height: 45px;
+}
+
+footer{ 
+    background-color: #A8D8A5;
+    float: left;
+    width: 100%;
+    height: 210px;
+}
+
+@media all and (max-width: 768px) {
+    #menu{
+        visibility: hidden;
+    }
+    .coluna, .footercoluna, .footercoluna2{
+        display:block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logodiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    #logo{
+        margin-left: 0;
+        transform: translateX(-50%);
+    }
+
+    .titulo3{
+        font-family: 'Spartan', sans-serif;
+        font-size: 44px;
+        text-align: center;
+    }
+
+    .acao3{
+        background-color: #A8D8A5;
+        color: black;
+        font-family: 'Spartan', sans-serif;
+        font-size:10px;
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+        display: block;
+        margin-left: 35%;
+        margin-right: 35%;
+        text-align: center;
+    }
+    
+    .texto3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 25px;
+        text-align: justify;
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+
+    #slogan{
+        font-family: 'Spartan', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        padding-top: 130px;
+        padding-left: 5%;
+        padding-right: 5%;
+        }
+
+    .chamada{
+        font-family: 'Spartan', sans-serif;
+        font-size: 25px;
+        text-align: center;
+        line-height: 45px;
+    }
+
+    .acaofooter{
+        line-height: 60px;
+    }
+    
+    .texto{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 50px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .titulo3{
+        font-family: 'Spartan', sans-serif;
+        font-size: 25px;
+    }
+
+    .texto3{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        text-align: justify;
+        padding-bottom: 10px;
+    }
+    
+    .centro{
+        text-align: center;
+        font-family: 'Spartan', sans-serif;
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    footer{ 
+        background-color: #A8D8A5;
+        float: left;
+        width: 100%;
+        height: 250px;
+    }
+
+    .texto3{
+        text-align: justify;
+    }
+
+    .texto{
+        text-align: justify;
+    }
+
+    .texto3{
+        text-align: justify;
+    }
+}
+
+@media all and (max-width: 770px) {
+    footer{ 
+        background-color: #A8D8A5;
+        float: left;
+        width: 100%;
+        height: 500px;
+    }
+}
